@@ -1,0 +1,125 @@
+.sf-footer-root {
+  padding: 3rem 1rem 0;
+  color: #fff;
+}
+
+/* CONTAINER */
+.sf-footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(14px);
+  border-radius: 30px;
+
+  padding: 40px 60px;
+
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  border: 2px solid rgba(255,255,255,0.08);
+}
+
+/* LOGO */
+.sf-footer-logo {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+/* ABOUT */
+.sf-footer-about {
+  flex: 1;
+  min-width: 280px;
+}
+
+.sf-footer-desc {
+  color: #444;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.sf-footer-tagline {
+  margin-top: 18px;
+  font-weight: 600;
+  background: linear-gradient(to right, #f0ce0c, #ff7300, #ff3c00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* CONTACT */
+.sf-footer-contact {
+  flex: 1;
+  min-width: 260px;
+}
+
+.sf-footer-heading {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: rgb(17, 53, 107);
+}
+
+/* 🔥 CONTACT ITEMS */
+.sf-contact-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  font-size: 15px;
+  line-height: 1.5;
+
+  text-decoration: none;
+
+  padding: 10px 12px;
+  border-radius: 12px;
+
+  transition: all 0.3s ease;
+}
+.sf-contact-item span{
+  color: rgb(6, 37, 66) !important;
+
+}
+
+/* ICON */
+.sf-contact-item svg {
+  fill: url(#grad1);
+  min-width: 20px;
+  margin-top: 3px;
+  transition: 0.3s;
+}
+
+/* 🔥 HOVER EFFECT */
+.sf-contact-item:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.06);
+  transform: translateX(8px);
+}
+
+.sf-contact-item:hover svg {
+  transform: scale(1.2);
+  color: #ffaa33;
+}
+
+/* BOTTOM */
+.sf-footer-bottom {
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #aaa;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .sf-footer-container {
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 25px;
+  }
+
+  .sf-footer-logo {
+    width: 150px;
+  }
+}
