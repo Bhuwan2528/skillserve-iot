@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './About.css'
-import cncImg from '../../assets/electric.jpeg'
+import cncImg from '../../assets/iot.jpg'
 import { TiStar } from "react-icons/ti";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -23,7 +23,7 @@ const About = ({ data }) => {
       "We prepare you with practical skills to succeed and get <span>hired by leading companies</span>",
 
     description:
-      "Our Electric Vehicle (02, 03 & 04 Wheeler) course is designed to make you a truly job-ready EV technician. You don’t just learn—you gain a recognized NSQF Level certification (Digilocker Verified) while working on real EV systems and practical projects. The training covers what actually matters in the EV industry, including battery systems, motor & controller working, wiring, diagnostics, and essential safety practices. As you progress, you build hands-on expertise in EV assembly, fault finding, battery management, and servicing—skills that are in high demand across workshops and EV companies. What makes this course stand out is the integration of modern EV practices like safety standards, efficiency techniques, and structured workflows, helping you work with precision and a professional mindset. If you want real skills, real EV exposure, and strong career growth—this is the perfect place to start.",
+      "Our Industrial Automation (PLC, Robotics & IIoT) course is designed to make you a truly job-ready automation technician. You don’t just learn—you gain a recognized NSQF Level certification (Digilocker Verified) while working on real industrial systems and practical projects. The training covers what actually matters in the automation industry, including PLC programming, robotics fundamentals, sensors & actuators, control systems, industrial wiring, and troubleshooting techniques. <br>     As you progress, you build hands-on expertise in panel designing, machine automation, fault finding, system integration, and maintenance—skills that are in high demand across manufacturing industries and automation companies. What makes this course stand out is the integration of modern industrial practices like IIoT (Industrial Internet of Things), smart monitoring, safety standards, and efficient workflows, helping you work with precision and a professional mindset. <br> If you want real skills, real industrial exposure, and strong career growth—this is the perfect place to start.",
 
     buttonText: "Read More"
   };
