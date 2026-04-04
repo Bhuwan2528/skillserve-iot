@@ -16,13 +16,13 @@ const fallbackChoose = [
       "At SkillServe, this course is designed around real industrial automation requirements, not just theory. You learn PLC programming, sensors & actuators, control systems, industrial wiring, and troubleshooting exactly the way manufacturing industries and automation companies expect. The focus is on building strong practical knowledge so you become job-ready from day one with skills that are directly used on the shop floor and in real industrial environments.",
   },
   {
-    image: "https://media.istockphoto.com/id/1294339664/photo/on-the-desk-personal-computer-showing-infrastructure-system-control-on-its-display-in.jpg?s=612x612&w=0&k=20&c=s9ZiRPmFKxRBdRu2EAeh-HI_m7YSVd8TxLzXyJpMoU0=",
+    image: "https://img.freepik.com/free-photo/ai-robot-interacting-with-futuristic-data-interface_23-2152005489.jpg?semt=ais_incoming&w=740&q=80",
     title: "Work on Real Automation Systems, Not Just Theory",
     description:
       "SkillServe follows a practical-first approach where you learn by working on real PLC panels, industrial components, and automation setups. From ladder logic programming and panel wiring to system integration and fault finding, you gain hands-on experience through live practice and real-world simulations. This helps you build confidence and prepares you to handle actual industrial machines, production lines, and automation systems efficiently.",
   },
   {
-    image: "https://t3.ftcdn.net/jpg/02/76/26/88/360_F_276268861_Y4ZHLZuZoXVkrXsjaHkaJn7xbE57dz81.jpg",
+    image: "https://institute.careerguide.com/wp-content/uploads/2023/09/1577829_NSQF-1.png",
     title: "Get Certified, Skilled & Industry-Ready Faster",
     description:
       "With NSQF-aligned training, you gain both practical skills and a recognized certification that adds real value to your career in automation. Along with hands-on projects, exposure to robotics and IIoT concepts, and industry-relevant workflows, you become ready to work in manufacturing plants, automation companies, and industrial setups. This course helps you move faster from learning to earning with confidence and professional-level skills.",

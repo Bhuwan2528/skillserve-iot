@@ -20,12 +20,10 @@ const About = ({ data }) => {
   // fallback content
   const defaultAbout = {
     heading:
-      "We prepare you with practical skills to succeed and get <span>hired by leading companies</span>",
+      "Step Into High-Paying Automation Careers with <span> Real Skills </span> ",
 
     description:
-      "Our Industrial Automation (PLC, Robotics & IIoT) course is designed to make you a truly job-ready automation technician. You don’t just learn—you gain a recognized NSQF Level certification (Digilocker Verified) while working on real industrial systems and practical projects. The training covers what actually matters in the automation industry, including PLC programming, robotics fundamentals, sensors & actuators, control systems, industrial wiring, and troubleshooting techniques. <br>     As you progress, you build hands-on expertise in panel designing, machine automation, fault finding, system integration, and maintenance—skills that are in high demand across manufacturing industries and automation companies. What makes this course stand out is the integration of modern industrial practices like IIoT (Industrial Internet of Things), smart monitoring, safety standards, and efficient workflows, helping you work with precision and a professional mindset. <br> If you want real skills, real industrial exposure, and strong career growth—this is the perfect place to start.",
-
-    buttonText: "Read More"
+      "Our PLC, Industrial Automation & Industry 4.0 course is designed to make you a high-demand professional in today’s smart manufacturing world. You don’t just learn concepts, you earn a recognized NCRF/NSQF Level certification while working on live projects and real industrial automation systems.     <br><br>         From PLC programming and control systems to sensors, IIoT, smart maintenance, and automation processes, you gain hands-on experience that directly matches what modern industries require. What truly sets this course apart is its strong focus on best manufacturing practices like Lean, 5S, and Kaizen, so you don’t just operate systems, you learn how to improve efficiency, reduce downtime, and optimize entire production processes.    <br><br>                 As industries rapidly shift towards automation and connected technologies, skilled professionals like you are in high demand, and this course prepares you to step in with confidence, capability, and real-world experience. ",
   };
 
   const aboutData = data || defaultAbout;

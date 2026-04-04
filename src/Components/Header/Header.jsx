@@ -130,8 +130,6 @@ const Header = () => {
         <Stats />
         <Counter openPopup={openPopup}/>
         <Placement/>
-        {/* <Trainners data={pageData?.trainers} openPopup={openPopup} /> */}
-        <Video data={pageData?.video}/>
         <Join/>
         <Choose data={pageData?.choose}/>
         <Footer data={pageData?.footer}/>
